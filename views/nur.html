@@ -5,9 +5,10 @@
     <title>Title</title>
 </head>
 <body>
-<a href="/mis">MIS</a>
-<a href="/pm">PM</a>
-<a href="/xia">XIA</a>
-<a href="/nur">NUR</a>
+
+{% for pic in pics %}
+    <img src="{{ pic }}" alt="">
+{% endfor %}
+
 </body>
 </html>
